@@ -1,0 +1,262 @@
+{
+  "trial_id": "f34f933341f1e29dd493bfe340ae3578",
+  "hyperparameters": {
+    "space": [
+      {
+        "class_name": "Int",
+        "config": {
+          "name": "conv2d_filters",
+          "default": null,
+          "min_value": 16,
+          "max_value": 128,
+          "step": 16,
+          "sampling": null
+        }
+      },
+      {
+        "class_name": "Int",
+        "config": {
+          "name": "conv2d_kernel",
+          "default": null,
+          "min_value": 3,
+          "max_value": 7,
+          "step": 2,
+          "sampling": null
+        }
+      },
+      {
+        "class_name": "Choice",
+        "config": {
+          "name": "padding",
+          "default": "same",
+          "values": ["same", "valid"],
+          "ordered": false
+        }
+      },
+      {
+        "class_name": "Int",
+        "config": {
+          "name": "maxpool2d",
+          "default": null,
+          "min_value": 1,
+          "max_value": 3,
+          "step": 1,
+          "sampling": null
+        }
+      },
+      {
+        "class_name": "Int",
+        "config": {
+          "name": "conv2d",
+          "default": null,
+          "min_value": 0,
+          "max_value": 3,
+          "step": 1,
+          "sampling": null
+        }
+      },
+      {
+        "class_name": "Int",
+        "config": {
+          "name": "dense",
+          "default": null,
+          "min_value": 1,
+          "max_value": 3,
+          "step": 1,
+          "sampling": null
+        }
+      },
+      {
+        "class_name": "Int",
+        "config": {
+          "name": "dense_units_0",
+          "default": null,
+          "min_value": 32,
+          "max_value": 128,
+          "step": 32,
+          "sampling": null
+        }
+      },
+      {
+        "class_name": "Float",
+        "config": {
+          "name": "dropout",
+          "default": 0.0,
+          "min_value": 0.0,
+          "max_value": 0.5,
+          "step": null,
+          "sampling": null
+        }
+      },
+      {
+        "class_name": "Int",
+        "config": {
+          "name": "conv2d_filters_0",
+          "default": null,
+          "min_value": 16,
+          "max_value": 128,
+          "step": 16,
+          "sampling": null
+        }
+      },
+      {
+        "class_name": "Int",
+        "config": {
+          "name": "conv2d_kernel_0",
+          "default": null,
+          "min_value": 3,
+          "max_value": 7,
+          "step": 2,
+          "sampling": null
+        }
+      },
+      {
+        "class_name": "Int",
+        "config": {
+          "name": "maxpool2d_0",
+          "default": null,
+          "min_value": 1,
+          "max_value": 3,
+          "step": 1,
+          "sampling": null
+        }
+      },
+      {
+        "class_name": "Int",
+        "config": {
+          "name": "conv2d_filters_1",
+          "default": null,
+          "min_value": 16,
+          "max_value": 128,
+          "step": 16,
+          "sampling": null
+        }
+      },
+      {
+        "class_name": "Int",
+        "config": {
+          "name": "conv2d_kernel_1",
+          "default": null,
+          "min_value": 3,
+          "max_value": 7,
+          "step": 2,
+          "sampling": null
+        }
+      },
+      {
+        "class_name": "Int",
+        "config": {
+          "name": "maxpool2d_1",
+          "default": null,
+          "min_value": 1,
+          "max_value": 3,
+          "step": 1,
+          "sampling": null
+        }
+      },
+      {
+        "class_name": "Int",
+        "config": {
+          "name": "conv2d_filters_2",
+          "default": null,
+          "min_value": 16,
+          "max_value": 128,
+          "step": 16,
+          "sampling": null
+        }
+      },
+      {
+        "class_name": "Int",
+        "config": {
+          "name": "conv2d_kernel_2",
+          "default": null,
+          "min_value": 3,
+          "max_value": 7,
+          "step": 2,
+          "sampling": null
+        }
+      },
+      {
+        "class_name": "Int",
+        "config": {
+          "name": "maxpool2d_2",
+          "default": null,
+          "min_value": 1,
+          "max_value": 3,
+          "step": 1,
+          "sampling": null
+        }
+      },
+      {
+        "class_name": "Int",
+        "config": {
+          "name": "dense_units_1",
+          "default": null,
+          "min_value": 32,
+          "max_value": 128,
+          "step": 32,
+          "sampling": null
+        }
+      },
+      {
+        "class_name": "Int",
+        "config": {
+          "name": "dense_units_2",
+          "default": null,
+          "min_value": 32,
+          "max_value": 128,
+          "step": 32,
+          "sampling": null
+        }
+      }
+    ],
+    "values": {
+      "conv2d_filters": 112,
+      "conv2d_kernel": 5,
+      "padding": "same",
+      "maxpool2d": 2,
+      "conv2d": 3,
+      "dense": 1,
+      "dense_units_0": 96,
+      "dropout": 0.13255806623970934,
+      "conv2d_filters_0": 112,
+      "conv2d_kernel_0": 5,
+      "maxpool2d_0": 2,
+      "conv2d_filters_1": 128,
+      "conv2d_kernel_1": 5,
+      "maxpool2d_1": 2,
+      "conv2d_filters_2": 64,
+      "conv2d_kernel_2": 5,
+      "maxpool2d_2": 1,
+      "dense_units_1": 96,
+      "dense_units_2": 96,
+      "tuner/epochs": 20,
+      "tuner/initial_epoch": 0,
+      "tuner/bracket": 0,
+      "tuner/round": 0
+    }
+  },
+  "metrics": {
+    "metrics": {
+      "loss": {
+        "direction": "min",
+        "observations": [{ "value": [1.2620221941376304], "step": 0 }]
+      },
+      "accuracy": {
+        "direction": "max",
+        "observations": [{ "value": [0.8439503908157349], "step": 0 }]
+      },
+      "val_loss": {
+        "direction": "min",
+        "observations": [{ "value": [1.0591715066990954], "step": 0 }]
+      },
+      "val_accuracy": {
+        "direction": "max",
+        "observations": [{ "value": [0.859000027179718], "step": 0 }]
+      }
+    }
+  },
+  "score": 0.859000027179718,
+  "best_step": 0,
+  "status": "COMPLETED"
+}
